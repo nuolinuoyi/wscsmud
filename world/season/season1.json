@@ -1,0 +1,42 @@
+{
+  "id": 1,
+  "name": "龙脉觉醒",
+  "theme": "dragon_vein",
+  "desc": "远古龙脉苏醒，天地灵气暴涨。沉睡千年的龙脉之力席卷武林，唯有觉醒龙脉血脉的武者，方能突破凡人极限，踏入超凡之境。",
+  "start_time": "2026-06-01T05:00:00",
+  "end_time": "2026-09-01T05:00:00",
+  "duration_months": 3,
+  "rules": {
+    "exp_rate": 1.5,
+    "pot_rate": 1.5,
+    "drop_rate": 1.2,
+    "stat_sum": 90,
+    "stat_min": 15,
+    "stat_max": 35,
+    "starting_equipment": ["eq/lv0/cloth"],
+    "starting_money": 500,
+    "enabled_families": [
+      "SHAOLIN", "WUDANG", "EMEI", "GAIBANG",
+      "HUASHAN", "XIAOYAO", "SHASHOU", "DRAGON_VEIN"
+    ],
+    "special_rules": ["dragon_vein_passive"]
+  },
+  "sets": ["s1_dragon"],
+  "families": ["DRAGON_VEIN"],
+  "rewards": {
+    "title": "龙脉传人",
+    "items": ["eq/season/s1_trophy"]
+  },
+  "milestones": [
+    { "level": 1, "reward": { "items": ["eq/season/s1_gift1"] } },
+    { "level": 3, "reward": { "items": ["eq/season/s1_gift2"], "title": "龙脉新秀" } },
+    { "level": 5, "reward": { "items": ["eq/season/s1_gift3"], "title": "龙脉精英" } },
+    { "level": 6, "reward": { "items": ["eq/season/s1_gift4"], "title": "龙脉大师" } }
+  ],
+  "leaderboard_categories": ["score", "level", "combat_power"],
+  "announcements": [
+    "远古龙脉已经苏醒，天地灵气暴涨！赛季角色享受1.5倍经验与潜能加成。",
+    "龙脉宗已开放入门，前往龙脉圣地拜见龙脉掌门即可加入。",
+    "集齐龙脉套装6件，激活龙脉涌动之力！"
+  ]
+}

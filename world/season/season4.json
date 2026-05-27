@@ -1,0 +1,42 @@
+{
+  "id": 4,
+  "name": "天剑降世",
+  "theme": "celestial_sword",
+  "desc": "天界神剑降临凡间，剑意笼罩八方。剑阁弟子以天剑心法修炼剑意，剑意越高伤害越强，但同时受到的伤害也会增加——高风险，高回报。",
+  "start_time": "2027-03-01T05:00:00",
+  "end_time": "2027-06-01T05:00:00",
+  "duration_months": 3,
+  "rules": {
+    "exp_rate": 1.4,
+    "pot_rate": 1.4,
+    "drop_rate": 1.2,
+    "stat_sum": 92,
+    "stat_min": 15,
+    "stat_max": 36,
+    "starting_equipment": ["eq/lv0/cloth"],
+    "starting_money": 500,
+    "enabled_families": [
+      "SHAOLIN", "WUDANG", "EMEI", "GAIBANG",
+      "HUASHAN", "XIAOYAO", "SHASHOU", "SWORD_PAVILION"
+    ],
+    "special_rules": ["sword_intent_mechanic"]
+  },
+  "sets": ["s4_celestial"],
+  "families": ["SWORD_PAVILION"],
+  "rewards": {
+    "title": "天剑传人",
+    "items": ["eq/season/s4_trophy"]
+  },
+  "milestones": [
+    { "level": 1, "reward": { "items": ["eq/season/s4_gift1"] } },
+    { "level": 3, "reward": { "items": ["eq/season/s4_gift2"], "title": "剑意新秀" } },
+    { "level": 5, "reward": { "items": ["eq/season/s4_gift3"], "title": "剑意精英" } },
+    { "level": 6, "reward": { "items": ["eq/season/s4_gift4"], "title": "天剑大师" } }
+  ],
+  "leaderboard_categories": ["score", "level", "combat_power"],
+  "announcements": [
+    "天界神剑降临凡间，剑意笼罩八方！赛季角色先天属性总和提升至92。",
+    "剑阁已开放入门，修炼天剑心法凝聚剑意。",
+    "集齐天剑套装6件，激活剑意连斩之力！"
+  ]
+}

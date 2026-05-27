@@ -1,0 +1,42 @@
+{
+  "id": 3,
+  "name": "魔渊入侵",
+  "theme": "demon_incursion",
+  "desc": "维度裂隙撕裂苍穹，魔渊大军涌入武林。猎魔门挺身而出，以斩魔之力守护人间。击杀恶魔可获取魔魂精华，用于强化自身。",
+  "start_time": "2026-12-01T05:00:00",
+  "end_time": "2027-03-01T05:00:00",
+  "duration_months": 3,
+  "rules": {
+    "exp_rate": 1.2,
+    "pot_rate": 1.3,
+    "drop_rate": 1.5,
+    "stat_sum": 85,
+    "stat_min": 15,
+    "stat_max": 33,
+    "starting_equipment": ["eq/lv0/cloth"],
+    "starting_money": 400,
+    "enabled_families": [
+      "SHAOLIN", "WUDANG", "EMEI", "GAIBANG",
+      "HUASHAN", "XIAOYAO", "SHASHOU", "DEMON_HUNTERS"
+    ],
+    "special_rules": ["demon_essence_drop", "demon_rift_events"]
+  },
+  "sets": ["s3_demon"],
+  "families": ["DEMON_HUNTERS"],
+  "rewards": {
+    "title": "猎魔英雄",
+    "items": ["eq/season/s3_trophy"]
+  },
+  "milestones": [
+    { "level": 1, "reward": { "items": ["eq/season/s3_gift1"] } },
+    { "level": 3, "reward": { "items": ["eq/season/s3_gift2"], "title": "猎魔新秀" } },
+    { "level": 5, "reward": { "items": ["eq/season/s3_gift3"], "title": "猎魔精英" } },
+    { "level": 6, "reward": { "items": ["eq/season/s3_gift4"], "title": "猎魔大师" } }
+  ],
+  "leaderboard_categories": ["score", "level", "combat_power"],
+  "announcements": [
+    "维度裂隙已开启，魔渊大军入侵武林！赛季角色享受1.5倍掉落加成。",
+    "猎魔门已开放入门，击杀恶魔获取魔魂精华强化自身。",
+    "集齐斩魔套装6件，激活屠魔之力！"
+  ]
+}

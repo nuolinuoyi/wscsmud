@@ -1,0 +1,42 @@
+{
+  "id": 2,
+  "name": "冰帝领域",
+  "theme": "frost_emperor",
+  "desc": "远古冰帝的封印骤然破裂，永恒寒冬降临武林。冰霜之力侵蚀万物，唯有修炼冰系心法者方能在极寒中突破自我。",
+  "start_time": "2026-09-01T05:00:00",
+  "end_time": "2026-12-01T05:00:00",
+  "duration_months": 3,
+  "rules": {
+    "exp_rate": 1.3,
+    "pot_rate": 1.5,
+    "drop_rate": 1.3,
+    "stat_sum": 88,
+    "stat_min": 15,
+    "stat_max": 35,
+    "starting_equipment": ["eq/lv0/cloth"],
+    "starting_money": 600,
+    "enabled_families": [
+      "SHAOLIN", "WUDANG", "EMEI", "GAIBANG",
+      "HUASHAN", "XIAOYAO", "SHASHOU", "FROST_PALACE"
+    ],
+    "special_rules": ["frost_stack_mechanic"]
+  },
+  "sets": ["s2_frost"],
+  "families": ["FROST_PALACE"],
+  "rewards": {
+    "title": "冰帝传人",
+    "items": ["eq/season/s2_trophy"]
+  },
+  "milestones": [
+    { "level": 1, "reward": { "items": ["eq/season/s2_gift1"] } },
+    { "level": 3, "reward": { "items": ["eq/season/s2_gift2"], "title": "寒霜新秀" } },
+    { "level": 5, "reward": { "items": ["eq/season/s2_gift3"], "title": "冰霜精英" } },
+    { "level": 6, "reward": { "items": ["eq/season/s2_gift4"], "title": "冰帝大师" } }
+  ],
+  "leaderboard_categories": ["score", "level", "combat_power"],
+  "announcements": [
+    "冰帝封印破裂，永恒寒冬降临！赛季角色享受1.3倍经验、1.5倍潜能加成。",
+    "冰宫已开放入门，前往冰宫大殿拜见冰宫宫主即可加入。",
+    "集齐冰帝套装6件，激活冰封领域之力！"
+  ]
+}
